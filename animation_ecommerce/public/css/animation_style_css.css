@@ -1,0 +1,491 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+header
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100px;
+	display: grid;
+	place-items: center;
+}
+
+header .barra
+{
+	/*border: 1px solid white;*/
+	height: 50px;
+	background-color: white;
+	display: flex;
+}
+
+header .barra .menus
+{
+	/*border: 1px solid red;*/
+	width: 50%;
+	height: 50px;
+	display: grid;
+	place-items: center;
+	padding: 5px;
+}
+
+.buttons-yellow
+{
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
+
+.painel-manu-phone
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.painel-manu-phone .div-close
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100px;
+	display: flex;
+}
+
+.painel-manu-phone .div-close .logo
+{
+	/*border: 1px solid black;*/
+	width: 50%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+	font-weight: 600;
+}
+
+.painel-manu-phone .div-close .icon-close
+{
+	/*border: 1px solid black;*/
+	width: 50%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.menu-phone
+{
+	/*border: 1px solid black;*/
+	width: 300px;
+	height: 100%;
+	position: absolute;
+	z-index: 2;
+    background-color: white;
+}
+
+.menu-phone .div-buttons
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 350px;
+	display: grid;
+	place-items: center;
+}
+
+.menu-phone .div-buttons a 
+{
+	text-decoration: none;
+	background-color: #1E90FF;
+	width: 100%;
+	padding: 20px;
+	display: grid;
+	place-items: center;
+	color: white;
+	font-weight: 600;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.menu-phone .div-buttons a:hover
+{
+	color: #32CD32;
+	font-weight: 600;
+}
+
+.menu-phone .div-icons
+{
+	border: 1px solid black;
+	width: 100%;
+	height: 100px;
+}
+
+.painel-manu-phone
+{
+	display: none;
+}
+
+body 
+{
+	background-image: url(/imagem/wallpaper-ecommerce.png);
+}
+
+.espacamento
+{
+	width: 100%;
+	height: 200px;
+}
+
+.alert-success
+{
+	margin-left: 20px;
+	font-weight: 600;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.alert-danger
+{
+	margin-left: 20px;
+	font-weight: 600;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.container 
+{
+	border: 1px solid red;
+	padding: 10px;
+	height: 100%;
+
+}
+
+.container .televisor
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 350px;
+	padding: 5px;
+}
+
+.container .televisor .tela 
+{
+	/*border: 1px solid white;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+	padding: 10px;
+}
+
+.container .televisor .tela .quadros 
+{
+	/*border: 1px solid red;*/
+	width: 50%;
+	height: 100%;
+}
+
+.container .televisor .tela .quadros .header 
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 60px;
+	display: grid;
+	place-items: center;
+}
+
+.container .televisor .tela .quadros .header p
+{
+	font-family: 'Russo One', sans-serif;
+}
+
+.container .televisor .tela .quadros .header h3
+{
+	font-family: 'Russo One', sans-serif;
+}
+
+.container .televisor .tela .quadros .body 
+{
+	/*border: 1px solid blue;*/
+	width: 100%;
+	height: 200px;
+	display: flex;
+}
+
+.container .televisor .tela .quadros .body .conteudo
+{
+	/*border: 1px solid black;*/
+	width: 50%;
+	height: 100%;
+}
+
+.container .televisor .tela .quadros .body .conteudo p
+{
+	font-family: 'Russo One', sans-serif;
+}
+
+.container .televisor .tela .quadros .body #conteudo02
+{
+	width: 100%;
+	height: 100%;
+}
+
+.container .televisor .tela .quadros .body .conteudo .selecionar
+{
+	/*border: 1px solid red;*/
+	border: 1px solid white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+.container .televisor .tela .quadros .body .conteudo .selecionar a 
+{
+	color: 	#1E90FF;
+	font-size: 60px;
+	font-weight: 600;
+	text-decoration: none;
+	background-color: white;
+	padding: 12px;
+	margin-left: 1px;
+
+}
+
+.container .televisor .tela .quadros .body .conteudo .selecionar a:hover
+{
+	color: #32CD32;
+	animation: animation_numbers 0.6s;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+@keyframes animation_numbers{
+	from{margin-top: 5px;}
+	to{margin-top: 0px;}
+}
+
+.container .televisor .tela .quadros .body .conteudo #titulo-descricao 
+{
+	font-weight: 600;
+}
+
+
+.container .televisor .tela .quadros .body #conteudo-centralizado
+{
+	display: grid;
+	place-items: center;
+}
+
+.container .televisor .tela .quadros .footer
+{
+	border: 1px solid white;
+	width: 100%;
+	height: 60px;
+	display: flex;
+}
+
+.container .televisor .tela .quadros .footer button 
+{
+	border-style: none;
+	border: 1px solid white;
+	width: 50%;
+	height: 100%;
+	background-color: #32CD32;
+	color: white;
+	font-weight: 600;
+	text-transform: uppercase;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+.container .televisor .tela .quadros .footer button a 
+{
+	color: white;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+
+.container .televisor .tela .quadros .footer button:before
+{
+	content: '';
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	float: right;
+	margin-right: 15px;
+	margin-top: 2px;
+	border-radius: 100%;
+}
+
+.container .televisor .tela .quadros .footer button:hover:before
+{
+	transform: scaleX(1.1) scaleY(1.1);
+	background-color: #32CD32;
+	transition: 0.6s;
+}
+
+.container .part-televisor-01
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100px;
+}
+
+.container .part-televisor-01 .part-televisor-02
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 50%;
+	display: grid;
+	place-items: center;
+}
+
+.container .part-televisor-01 .part-televisor-02 .part-meio
+{
+	/*border: 1px solid black;*/
+	width: 10px;
+	height: 100%;	
+}
+
+.container .part-televisor-01 .part-televisor-03
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 5%;
+}
+
+.central-anuncios
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 200px;
+	display: flex;
+}
+
+.central-anuncios .quadros-anuncios
+{
+	/*border: 1px solid red;*/
+	width: 50%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+}
+
+.central-footer
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 559px;
+	margin-top: 10px;
+	display: flex;
+	padding: 20px;
+}
+
+.central-footer .quadros-footer
+{
+	border: 1px solid white;
+	width: 50%;
+	height: 100%;
+	background-color: white;
+}
+
+.central-footer #footer-two
+{
+	display: grid;
+	place-items: center;
+}
+
+.pesquisa-frete
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100px;
+	margin-top: 100px;
+	position: absolute;
+}
+
+.pesquisa-frete .div-central-white
+{
+	border: 1px solid white;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+}
+
+
+@media only screen and (max-width: 600px)
+{
+	header 
+	{
+		width: 100%;
+		height: 80px;
+	}
+
+	.container .televisor .tela .quadros .body
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.container .televisor .tela .quadros .body .conteudo
+	{
+		width: 100%;
+		height: 50%;
+	}
+
+	.container .televisor .tela .quadros .footer button
+	{
+		width: 100%;
+		font-size: 10px;
+	}
+
+	.container .televisor .tela .quadros .footer button:before
+	{
+		width: 10px;
+		height: 10px;
+		margin-right: 5px;
+	}
+
+	.container .televisor .tela .quadros .body .conteudo p 
+	{
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+
+	.container .televisor .tela .quadros .body .conteudo .selecionar
+	{
+		border: 1px solid white;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.container .televisor .tela .quadros .body .conteudo .selecionar a 
+	{
+		font-size: 20px;
+	}
+
+	.container .televisor .tela .quadros .body .conteudo .alertas
+	{
+		height: 30px;
+	}
+    
+    .barra 
+    {
+    	width: 200px;
+    }
+
+	.buttons-yellow
+	{
+		font-size: 15px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+ 
+  .container .televisor .tela .quadros .body .conteudo .selecionar a 
+  {
+  	font-size: 25px;
+  }
+  
+}
