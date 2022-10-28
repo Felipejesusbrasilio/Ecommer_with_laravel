@@ -1,0 +1,138 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body
+{
+	display: grid;
+	place-items: center;
+}
+
+.container 
+{
+	/*border: 1px solid black;*/
+	margin-top: 10px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: 15px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+header
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100px;
+	display: grid;
+	place-items: center;
+	background-color: #1E90FF;
+}
+
+p 
+{
+	color: white;
+	font-weight: 600;
+}
+
+.alert-success
+{
+	margin-left: 20px;
+	font-weight: 600;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.alert-danger
+{
+	margin-left: 20px;
+	font-weight: 600;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.alert-dark
+{
+	margin-left: 20px;
+	font-weight: 600;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.red 
+{
+	color: red;
+}
+
+.tamanhos
+{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 15px;
+	padding-left: 0px;
+	background-color: #1E90FF;
+}
+
+.tamanhos a 
+{
+	text-decoration: none;
+	color: #1E90FF;
+	font-weight: 600;
+	background-color: white;
+	padding: 15px;
+	margin-left: 5px;
+}
+
+.tamanhos a:hover
+{
+	color: #32CD32;
+	animation: animation_numbers 0.6s;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.compras
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 100%;
+	display: grid;
+	place-items: center;
+	padding: 20px;
+	background-color: #1E90FF;
+	margin-top: 20px;
+}
+
+.compras a 
+{
+	text-decoration: none;
+	background-color: #32CD32;
+	padding: 30px;
+	color: white;
+	font-weight: 600;
+}
+
+.compras a:hover 
+{
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+@media only screen and (max-width: 600px){
+.tamanhos a 
+{
+	text-decoration: none;
+	color: #1E90FF;
+	font-weight: 600;
+	background-color: white;
+	padding: 15px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+}
